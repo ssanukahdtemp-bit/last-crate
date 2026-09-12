@@ -38,8 +38,8 @@ A supervised pilot with a bakery and its existing collection partners, measured 
 
 ## Required fields still to complete
 
-- Public CALL-E contribution PR URL: pending GitHub publication (deferred by entrant).
-- Public YouTube/Vimeo demo URL: pending successful real-call recording.
+- Public CALL-E contribution PR URL: https://github.com/CALLE-AI/awesome-phone-call-agents/pull/492.
+- Public YouTube/Vimeo demo URL: not yet recorded/uploaded; use an explicitly labeled fixture walkthrough if live verification remains unavailable.
 - CALL-E account email: entrant to supply privately in Devpost.
 - Functional deployed application URL: not yet deployed; local app runs at localhost:3210.
 - Live integration evidence: authenticated runtime request verified; successful live conversations still pending accepted English destination.

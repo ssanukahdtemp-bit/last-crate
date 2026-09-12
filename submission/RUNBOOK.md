@@ -36,4 +36,4 @@ The currently shipped genuine recording is a route rejection. The successful pat
 
 ## Submission steps outside the application
 
-GitHub publication was deferred. A prepared contribution branch and local patch are the handoff for that step. Public hosting, YouTube/Vimeo upload and the entrant's Devpost account fields remain separate publishing/account operations; the calling workflow does not depend on them to run. The final screen recording should contain real CALL-E call excerpts when claiming live success, with no secrets or private phone numbers visible.
+Source is published at https://github.com/ssanukahdtemp-bit/last-crate and the contribution is open at https://github.com/CALLE-AI/awesome-phone-call-agents/pull/492. Public hosting, YouTube/Vimeo upload and the entrant's Devpost account fields remain separate publishing/account operations; the calling workflow does not depend on them to run. The final screen recording should contain real CALL-E call excerpts when claiming live success, with no secrets or private phone numbers visible.
