@@ -1,0 +1,18 @@
+{
+  "name": "last-crate-submission",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file-if-exists=.env apps/typescript/last-crate/server.ts",
+    "test": "node --test apps/typescript/last-crate/tests/*.test.ts",
+    "harness": "node --env-file-if-exists=.env apps/typescript/last-crate/harness.ts",
+    "demo": "node --env-file-if-exists=.env apps/typescript/last-crate/harness.ts demo",
+    "doctor": "node --env-file-if-exists=.env apps/typescript/last-crate/harness.ts doctor"
+  },
+  "dependencies": {
+    "@call-e/calle": "0.7.0"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}

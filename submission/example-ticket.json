@@ -1,0 +1,29 @@
+{
+  "reference": "LC-54FD8F",
+  "quantity": 48,
+  "donor": "Flour & Field",
+  "partner": "Neighbour Table",
+  "address": "18 Mill Road, rear collection door",
+  "date": "2026-09-12",
+  "arrival": "17:40",
+  "cutoff": "18:30",
+  "offset": "+05:30",
+  "createdAt": "2026-09-12T02:23:55.496Z",
+  "source": "fixture",
+  "callIds": [
+    "fixture_donor",
+    "fixture_partner"
+  ],
+  "status": "agreed",
+  "evidence": [
+    {
+      "callId": "fixture_donor",
+      "quote": "Yes, we have 48 plain loaves in our packaging. They are ready at 17:30. Please collect by 18:30. I will set them aside for your approved partner until then."
+    },
+    {
+      "callId": "fixture_partner",
+      "quote": "Yes, we will collect all 48 loaves from Flour & Field at 17:40. We have our own transport. Please confirm the pickup."
+    }
+  ],
+  "notice": "Phone-confirmed pickup commitment; not proof of food safety or completed collection."
+}

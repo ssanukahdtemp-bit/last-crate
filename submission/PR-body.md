@@ -1,0 +1,7 @@
+Adds Last Crate, a focused surplus-bread collection app: one CALL-E call confirms a bakery offer, deterministic capacity/travel checks select an approved collector, and a second call seeks a commitment to that exact offer. A validated agreement creates an expiring local pickup ticket; unclear, declined, partial or late results do not.
+
+The app uses the official server SDK at runtime through one provider adapter, SQLite persistence, stable create idempotency, saved-call recovery, an explicit live allowlist and call cap, and labeled JSON fixture scenarios by default. A single demo harness starts the server, handles the two-call workflow, resumes the same saved session, records redacted provider responses and exports the ticket. Recorded response replay never calls the provider. Setup, actual call side effects, cancellation limits, credential handling and workflow boundaries are documented in the app README.
+
+Validation: 20 offline workflow, SDK contract and provider replay tests; one-command synthetic demo and actual recorded rejection replay; browser-verified fixture flow and pickup ticket. A live authenticated request was made, but CALL-E rejected English calling to the authorized Sri Lankan test destination with `call_not_ready`. Successful live conversation verification remains pending and is not claimed by this contribution.
+
+Contribution area: User-facing Apps, `apps/typescript/last-crate/`.
